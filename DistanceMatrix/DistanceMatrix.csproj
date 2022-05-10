@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Authors>Dean_Popovich</Authors>
+    <Copyright></Copyright>
+    <PackageIcon>DistanceMatrix.png</PackageIcon>
+    <Description>Given a list of origins and destinations, the DistanceMatrix package provides the time taken to travel from each origin to each destination.</Description>
+    <PackageReadmeFile>DistanceMatrixPackageDescription.md</PackageReadmeFile>
+    <PackageId>DistanceMatrixTool</PackageId>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\Users\dejan\Desktop\DistanceMatrix.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\..\Users\dejan\Desktop\DistanceMatrixPackageDescription.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.8" />
+  </ItemGroup>
+
+</Project>

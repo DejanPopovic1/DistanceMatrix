@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>DistanceMatrix</id>
+    <version>1.0.0</version>
+    <authors>DistanceMatrix</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="Microsoft.AspNet.WebApi.Client" version="5.2.8" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\4. Portfolio\DistanceMatrix\DistanceMatrix\bin\Debug\net6.0\DistanceMatrix.runtimeconfig.json" target="lib\net6.0\DistanceMatrix.runtimeconfig.json" />
+    <file src="C:\4. Portfolio\DistanceMatrix\DistanceMatrix\bin\Debug\net6.0\DistanceMatrix.dll" target="lib\net6.0\DistanceMatrix.dll" />
+  </files>
+</package>
